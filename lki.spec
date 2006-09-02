@@ -8,6 +8,7 @@ Group:		Documentation
 Source0:	http://www.tldp.org/LDP/%{name}.html.tar.gz
 # Source0-md5:	d296170427dbb52176fae57c9e93632a
 URL:		http://www.tldp.org/LDP/lki/index.html
+Requires:	LDP-base
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -28,8 +29,7 @@ wyk³adów jakie tam prowadzi na temat Linuksa.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_docdir}/LDP/lki
-
-cp -ar * $RPM_BUILD_ROOT%{_docdir}/LDP/lki
+cp -a * $RPM_BUILD_ROOT%{_docdir}/LDP/lki
 
 %clean
 rm -rf $RPM_BUILD_ROOT
