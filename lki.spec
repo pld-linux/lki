@@ -1,5 +1,5 @@
 Summary:	Linux Kernel 2.4 Internals
-Summary(pl):	O kernelu 2.4
+Summary(pl.UTF-8):   O kernelu 2.4
 Name:		lki
 Version:	20020807
 Release:	1
@@ -18,10 +18,10 @@ senior Linux kernel engineer at VERITAS Software Ltd and wrote this
 book for the purpose of supporting the short training course/lectures
 he gave on this subject, internally at VERITAS.
 
-%description -l pl
-Wprowadzenie do Linuksa 2.4. Autor pracuje jako starszy in¿ynier w
-firmie VERITAS Software Ltd i napisa³ tê ksi±¿kê jako pomocnicz± do
-wyk³adów jakie tam prowadzi na temat Linuksa.
+%description -l pl.UTF-8
+Wprowadzenie do Linuksa 2.4. Autor pracuje jako starszy inÅ¼ynier w
+firmie VERITAS Software Ltd i napisaÅ‚ tÄ™ ksiÄ…Å¼kÄ™ jako pomocniczÄ… do
+wykÅ‚adÃ³w jakie tam prowadzi na temat Linuksa.
 
 %prep
 %setup -qc
