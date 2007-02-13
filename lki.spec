@@ -1,5 +1,5 @@
 Summary:	Linux Kernel 2.4 Internals
-Summary(pl.UTF-8):   O kernelu 2.4
+Summary(pl.UTF-8):	O kernelu 2.4
 Name:		lki
 Version:	20020807
 Release:	1
